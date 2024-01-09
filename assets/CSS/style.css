@@ -2,12 +2,7 @@
   margin: 0;  /* pour l'intérieur*/
   padding: 0; /* pour l'extérieur*/
 }
-@media screen and (min-width: 800px) {
-    .container {
-      margin: 1em 2em;
-    }
-  }
-  
+
 .subtitle {
     color: red;
     text-transform: uppercase;
@@ -18,16 +13,14 @@
 }
 
 .image h1 {
-    padding: 300px 0 ;
+    padding: 300px 0;
+}
 
-    /*margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+#position {
+    position : relative;
+}
 
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;*/
-
+.position {
+    position: relative;
+    top: 100px;
 }
